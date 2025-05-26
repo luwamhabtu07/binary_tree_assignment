@@ -1,0 +1,21 @@
+Binary Tree Traversal and Construction - Report
+
+Objective:
+The goal of this project was to implement traversal algorithms (preorder, inorder, postorder, level order) and construct a binary tree from preorder and inorder sequences.
+
+Approach:
+- Created a Node class to represent binary tree nodes.
+- Implemented recursive methods for preorder, inorder, and postorder traversals.
+- Used a queue and iterative logic for level order traversal.
+- Wrote a constructor using preorder and inorder sequences to rebuild the tree.
+
+Challenges:
+- Ensuring recursion was implemented correctly and returned accurate results.
+- Handling edge cases like empty trees or skewed trees.
+
+Solutions:
+- Tested each function with both simple and complex tree structures.
+- Used a modular structure for better readability and reusability.
+
+Conclusion:
+All traversal functions returned expected sequences. The tree reconstruction function also correctly rebuilt the binary tree. This assignment helped reinforce understanding of tree structures and traversal logic.
